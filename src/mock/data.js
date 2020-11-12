@@ -19,10 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Hi I\'m Kylie',
-  paragraphTwo: `I deploy a lot of typescript to the cloud. I enjoy a good bought of React, but
-  am most interested in building fast, dependable backend processes. `,
+  paragraphTwo: `I deploy a lot of typescript to the cloud. I enjoy a good dive into React, but
+  am most interested in building fast, dependable backend processes.`,
   paragraphThree: `In a past life I was an environmental
-  scientist, and as a result I have opinions about GIS options.`,
+  scientist collecting groundwater data through a terrible web form. Since I knew how to code for data science, I
+  sat down to brush up my JavaScript so that I might improve that web form,
+  and the next thing I new I had completed a fullstack bootcamp.`,
   resume: 'https://github.com/kyliepace/kyliepace.github.io/tree/master/src/images/resume.pdf', // if no resume, the button will not show up
 };
 
@@ -63,7 +65,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'kyliepace@gmail.com',
 };
 
 // FOOTER DATA
