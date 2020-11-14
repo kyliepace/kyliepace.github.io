@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Kylie Pace',
-  subtitle: `I\'m that "backend guy" you wish you had on your team`,
+  subtitle: `Used to be a scientist, now I'm a web developer. Worked for gov't agencies, then digital startup. Throughout it all, I love data.`,
   cta: '',
 };
 
@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphThree: `In a past life I was an environmental
   scientist collecting groundwater data through a terrible web form. Since I knew how to code for data science, I
   sat down to brush up my JavaScript so that I might improve that web form,
-  and the next thing I new I had completed a fullstack bootcamp.`,
+  and the next thing I knew, I had completed a fullstack bootcamp.`,
   resume: 'https://github.com/kyliepace/kyliepace.github.io/tree/master/src/images/resume.pdf', // if no resume, the button will not show up
 };
 
@@ -74,17 +74,17 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: 'twitter.com/kylie_the_first',
+      url: 'https://twitter.com/kylie_the_first',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'linkedin.com/in/kyliepace',
+      url: 'https://linkedin.com/in/kyliepace',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: 'github.com/kyliepace',
+      url: 'https://github.com/kyliepace',
     },
   ],
 };
