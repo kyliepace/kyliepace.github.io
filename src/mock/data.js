@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Kylie Pace', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
-  description: 'Full-stack developer specializing in MongoDB, geospatial analysis, and cloud architecture', // e.g: Welcome to my website
+  description: 'MongoDB certified fullstack developer specializing in geospatial analysis and cloud architecture', // e.g: Welcome to my website
 };
 
 // HERO DATA
