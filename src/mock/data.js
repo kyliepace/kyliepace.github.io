@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'Hi I\'m Kylie',
-  paragraphTwo: `I deploy a lot of typescript to the cloud. I enjoy a good dive into React, but
-  am most interested in building fast, dependable backend processes.`,
-  paragraphThree: `In a past life I was an environmental
+  paragraphTwo: `In a past life I was an environmental
   scientist collecting groundwater data through a terrible web form. Since I knew how to code for data science, I
   sat down to brush up my JavaScript so that I might improve that web form,
   and the next thing I knew, I had completed a fullstack bootcamp.`,
+  paragraphThree: `I'm all about improving the process. To that end I've recently become MongoDB certified and 
+  have been working on tranforming a graphQL express API into a serverless, event-driven, typescript system. `,
   resume: 'https://github.com/kyliepace/kyliepace.github.io/tree/master/src/images/resume.pdf', // if no resume, the button will not show up
 };
 
@@ -46,6 +46,14 @@ export const projectsData = [
     The backend is just separate typescript cloud functions and the front-end is static written in vue.js.`,
     url: 'https://kyliepace.github.io/cfHomes/front-end/dist/',
     repo: 'https://kyliepace.github.io/cfHomes', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'fitnssd.png',
+    title: 'React Fitness App',
+    info: `Lockdown project building myself a workout app in React making use of hooks and contexts`,
+    url: 'https://fitnssd.com/',
+    repo: 'https://gitlab.com/swerve_app/workout-client'
   },
   {
     id: nanoid(),
